@@ -11,9 +11,6 @@
 	 
 	  <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-	  
-	  <!-- Latest compiled and minified JavaScript -->
-	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -32,7 +29,7 @@
 	<!-- Header -->
 	<div class="container">
 		<div id="header">
-		Stuff from the header
+			<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/afriquelogo.png" alt="logo">
 		</div>
 		
 		<!-- MENU BAR -->
@@ -72,15 +69,15 @@
 			  </div>
 
 			  <div class="item">
-				<img src="img_chania2.jpg" alt="model2" width="460" height="345">
+				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model2.png" alt="model2" width="460" height="345">
 			  </div>
 			
 			  <div class="item">
-				<img src="img_flower.jpg" alt="model3" width="460" height="345">
+				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model3.png" alt="model3" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="img_flower2.jpg" alt="model4" width="460" height="345">
+				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model4.png" alt="model4" width="460" height="345">
 			  </div>
 			</div>
 
@@ -106,10 +103,13 @@
 	
 	<!-- Footer -->
 	<div></div>
+	
+	
  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	
   </body>
 </html>

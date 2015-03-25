@@ -1,9 +1,21 @@
 #header{
-	background: green;
+	background: #A15EFF;
+}
+
+#header img{
+	height: 50%;
+	width: 50%;
+	position: relative;
+	left: 25%;
 }
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 70%;
+      width: 30%;
       margin: auto;
 }
+
+.carousel {
+	background: #E1D9FF;
+}
+
