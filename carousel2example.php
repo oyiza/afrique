@@ -24,48 +24,45 @@
 	
   </head>
   <body>
-
-<header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-            <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-        </ol>
-
-        <!-- Wrapper for Slides -->
-        <div class="carousel-inner">
-            <div class="item">
-                <!-- Set the first background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide One');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div>
-            </div>
-            <div class="item active">
-                <!-- Set the second background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Two');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
-            </div>
-            <div class="item">
-                <!-- Set the third background image using inline CSS below. -->
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&amp;text=Slide Three');"></div>
-                <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-
-    </header>
+	<!-- Header -->
+	<div class="container">
+		<div>
+		</div>
+		
+		<!-- MENU BAR -->
+		<div>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<div>
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Book Appointment</a></li> 
+					<li><a href="#">Contact Us</a></li> 
+				  </ul>
+				</div>
+			  </div>
+			</nav>	
+		</div>
+	</div> <!-- end of header -->
 	
-</body></html>
+	<!-- Carousel -->
+	
+	 
+	
+	<!-- CAROUSEL ENDING -->
+	
+	<!-- Main Content -->
+	<div class="container">
+		 <h1>Welcome to Afrique!</h1>
+	</div>
+	
+	<!-- Footer -->
+	<div></div>
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

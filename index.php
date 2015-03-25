@@ -24,9 +24,15 @@
 	
   </head>
   <body>
+  <!-- SPACER -->
+  <div class="container">
+	<br/>
+  </div>
+  
 	<!-- Header -->
 	<div class="container">
-		<div>
+		<div id="header">
+		Stuff from the header
 		</div>
 		
 		<!-- MENU BAR -->
@@ -44,12 +50,12 @@
 			  </div>
 			</nav>	
 		</div>
+		
 	</div> <!-- end of header -->
 	
 	<!-- Carousel -->
 	
 	 <div class="container">
-		  <br>
 		  <div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
