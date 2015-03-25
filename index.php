@@ -78,19 +78,19 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 			  <div class="item active">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model1.png" alt="model1" width="460" height="345">
+				<img src="img/model1.png" alt="model1" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model2.png" alt="model2" width="460" height="345">
+				<img src="img/model2.png" alt="model2" width="460" height="345">
 			  </div>
 			
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model3.png" alt="model3" width="460" height="345">
+				<img src="img/model3.png" alt="model3" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model4.png" alt="model4" width="460" height="345">
+				<img src="img/model4.png" alt="model4" width="460" height="345">
 			  </div>
 			</div>
 

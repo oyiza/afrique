@@ -9,6 +9,15 @@
 	left: 25%;
 }
 
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 30%;
