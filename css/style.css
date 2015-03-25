@@ -24,3 +24,13 @@
     font-weight: 900;
     letter-spacing: 2px;
 }
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}

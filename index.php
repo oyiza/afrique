@@ -53,6 +53,7 @@
 					<li><a href="#">About Us</a></li>
 					<li><a href="#">Book Appointment</a></li> 
 					<li><a href="#">Contact Us</a></li> 
+					<li><a href="#"><strong>Sign In</strong></a></li>
 				  </ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -110,7 +111,7 @@
 	
 	<!-- Main Content -->
 	<div class="container">
-		 <h1>Welcome to Afrique!</h1>
+		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
 	</div>
 	
 	<!-- Footer -->
