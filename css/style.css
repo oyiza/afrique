@@ -19,3 +19,8 @@
 	background: #E1D9FF;
 }
 
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
