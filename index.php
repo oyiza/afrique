@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Afrique</title>
+	
+	<!-- Style.css -->
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	 
 	  <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -59,19 +62,19 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 			  <div class="item active">
-				<img src="img_chania.jpg" alt="Chania" width="460" height="345">
+				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model1.png" alt="model1" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="img_chania2.jpg" alt="Chania" width="460" height="345">
+				<img src="img_chania2.jpg" alt="model2" width="460" height="345">
 			  </div>
 			
 			  <div class="item">
-				<img src="img_flower.jpg" alt="Flower" width="460" height="345">
+				<img src="img_flower.jpg" alt="model3" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="img_flower2.jpg" alt="Flower" width="460" height="345">
+				<img src="img_flower2.jpg" alt="model4" width="460" height="345">
 			  </div>
 			</div>
 
