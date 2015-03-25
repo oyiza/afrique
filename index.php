@@ -21,16 +21,32 @@
 	
   </head>
   <body>
-    <h1>Welcome to Afrique!</h1>
-	
 	<!-- Header -->
 	<div class="container">
 		<div>
 		</div>
-	</div>
+		
+		<!-- MENU BAR -->
+		<div>
+			<nav class="navbar navbar-default">
+			  <div class="container-fluid">
+				<div>
+				  <ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Book Appointment</a></li> 
+					<li><a href="#">Contact Us</a></li> 
+				  </ul>
+				</div>
+			  </div>
+			</nav>	
+		</div>
+	</div> <!-- end of header -->
 	
 	<!-- Main Content -->
-	<div></div>
+	<div>
+		 <h1>Welcome to Afrique!</h1>
+	</div>
 	
 	<!-- Footer -->
 	<div></div>
