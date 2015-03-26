@@ -50,7 +50,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li><a href="#">About Us</a></li>
+					<li><a href="aboutus.php">About Us</a></li>
 					<li><a href="#">Book Appointment</a></li> 
 					<li><a href="#">Contact Us</a></li> 
 					<li class="active"><a href="#"><strong>Sign In</strong></a></li>
