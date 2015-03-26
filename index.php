@@ -28,8 +28,9 @@
   
 	<!-- Header -->
 	<div class="container">
-		<div id="header">
-			<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/afriquelogo.png" alt="logo">
+		<div class="brand" style="color: pink">
+			Afrique
+			<!--<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/afriquelogo.png" alt="logo">-->
 		</div>
 		
 		<!-- MENU BAR -->
@@ -111,7 +112,7 @@
 	
 	<!-- Main Content -->
 	<div class="container">
-		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
+		 <h2 class="brand-before text-center"><strong>Welcome to Afrique!</strong></h2>
 	</div>
 	
 	<!-- Footer -->
