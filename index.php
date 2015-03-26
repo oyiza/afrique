@@ -28,7 +28,7 @@
   
 	<!-- Header -->
 	<div class="container">
-		<div class="brand" style="color: pink">
+		<div class="brand" style="color: #666699">
 			Afrique
 			<!--<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/afriquelogo.png" alt="logo">-->
 		</div>

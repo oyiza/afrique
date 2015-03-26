@@ -28,8 +28,8 @@
   
 	<!-- Header -->
 	<div class="container">
-		<div id="header">
-			<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/afriquelogo.png" alt="logo">
+		<div class="brand" style="color: #666699">
+			Afrique
 		</div>
 		
 		<!-- MENU BAR -->
