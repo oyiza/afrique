@@ -1,5 +1,6 @@
 #header{
-	background: #A15EFF;
+	background: #B990FF;
+	/* old color #A28BFF */
 }
 
 #header img{
@@ -17,5 +18,13 @@
 
 .carousel {
 	background: #E1D9FF;
+}
+
+.container-fluid{
+	background: #8C8685;
+}
+
+.nav ul li a {
+	color: white;
 }
 
