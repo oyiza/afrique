@@ -65,7 +65,56 @@
 	
 	<!-- Main Content -->
 	<div class="container">
-		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
+		<div class="row">
+			 <div class="box">
+				<div class="col-lg-12 text-center">
+				<div class="panel panel-body">
+					<hr>
+					<h2 class="intro-text text-center"><strong>Booking Form</strong></h2>
+					<hr>
+					<p>Place text here</p>
+					<form role="form">
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>First Name</label>
+								<input type="text" class="form-control" placeholder="firstname">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>Last Name</label>
+								<input type="text" class="form-control" placeholder="lastname">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>Phone Number</label>
+								<input type="number" class="form-control" placeholder="phone number">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>Hairstyle</label>
+								<input type="text" class="form-control" placeholder="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>Number of clients</label>
+								<input type="number" class="form-control" placeholder="">
+							</div>
+						</div>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label>Are you buying hair or do you have your own?</label>
+								<input type="text" class="form-control" placeholder="">
+							</div>
+						</div>
+					</form>
+				</div>
+				</div>
+			 </div>
+		</div>
 	</div>
 	
 	<!-- Footer -->

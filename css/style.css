@@ -86,3 +86,19 @@ body {
         line-height: normal;
         color: #fff;
 		}
+}
+
+.intro-text {
+	text-transform: uppercase;
+	font-size: 1.25em;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
