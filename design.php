@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sign In - Afrique</title>
+    <title>Afrique</title>
 	
 	<!-- Style.css -->
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -45,11 +45,11 @@
                     <span class="icon-bar"></span>
 					  </button>
 					  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-					  <a class="navbar-brand" href="index.php">Afrique</a>
+					  <a class="navbar-brand" href="home.php">Afrique</a>
 				  </div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li><a href="index.php">Home</a></li>
+					<li><a href="home.php">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
 					<li><a href="#">Book Appointment</a></li> 
 					<li><a href="#">Contact Us</a></li> 

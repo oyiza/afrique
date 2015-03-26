@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
 					  </button>
 					  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-					  <a class="navbar-brand" href="index.php">Afrique</a>
+					  <a class="navbar-brand" href="home.php">Afrique</a>
 				  </div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
