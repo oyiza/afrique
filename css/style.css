@@ -54,4 +54,11 @@ body {
     margin: 0;
     font-size: 4em;
 }
->>>>>>> origin/master
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}>>>>>>> origin/master
