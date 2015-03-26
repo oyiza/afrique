@@ -45,11 +45,11 @@
                     <span class="icon-bar"></span>
 					  </button>
 					  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-					  <a class="navbar-brand" href="index.php">Afrique</a>
+					  <a class="navbar-brand" href="home.php">Afrique</a>
 				  </div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
-					<li><a href="index.php">Home</a></li>
+					<li><a href="home.php">Home</a></li>
 					<li class="active"><a href="aboutus.php">About Us</a></li>
 					<li><a href="bookap.php">Book Appointment</a></li> 
 					<li><a href="contactus.php">Contact Us</a></li> 
