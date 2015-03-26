@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About us - Afrique</title>
+    <title>Sign In - Afrique</title>
 	
 	<!-- Style.css -->
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -21,11 +21,11 @@
 	
   </head>
   <body>
-	  <!-- SPACER -->
-	  <div class="container">
-		  <br/>
-	  </div>
-	  
+  <!-- SPACER -->
+  <div class="container">
+	<br/>
+  </div>
+  
 	<!-- Header -->
 	<div class="container">
 		<div class="brand" style="color: #666699">
@@ -50,10 +50,10 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="index.php">Home</a></li>
-					<li class="active"><a href="aboutus.php">About Us</a></li>
-					<li><a href="bookap.php">Book Appointment</a></li> 
-					<li><a href="contactus.php">Contact Us</a></li> 
-					<li><a href="signIn.php"><strong>Sign In</strong></a></li>
+					<li><a href="aboutus.php">About Us</a></li>
+					<li><a href="#">Book Appointment</a></li> 
+					<li><a href="#">Contact Us</a></li> 
+					<li class="active"><a href="#"><strong>Sign In</strong></a></li>
 				  </ul>
 				</div>
 				<!-- /.navbar-collapse -->
@@ -63,11 +63,11 @@
 		
 	</div> <!-- end of header -->
 	
-	<!-- main content -->
-	  <div class="container">
-		  <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
-	  </div>
-		
+	<!-- Main Content -->
+	<div class="container">
+		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
+	</div>
+	
 	<!-- Footer -->
 	  <footer>
         <div class="container">
@@ -79,5 +79,12 @@
         </div>
 	  </footer>
 	
+	
+ 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
   </body>
-  </html>
+</html>

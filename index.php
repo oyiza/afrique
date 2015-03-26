@@ -52,8 +52,8 @@
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="#">Book Appointment</a></li> 
-					<li><a href="#">Contact Us</a></li> 
+					<li><a href="bookap.php">Book Appointment</a></li> 
+					<li><a href="contactus.php">Contact Us</a></li> 
 					<li><a href="signIn.php"><strong>Sign In</strong></a></li>
 				  </ul>
 				</div>
