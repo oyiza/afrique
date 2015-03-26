@@ -10,6 +10,15 @@
 	left: 25%;
 }
 
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    background: url('../img/background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
       width: 30%;
@@ -20,6 +29,7 @@
 	background: #E1D9FF;
 }
 
+<<<<<<< HEAD
 .container-fluid{
 	background: #8C8685;
 }
@@ -28,3 +38,20 @@
 	color: white;
 }
 
+=======
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+}
+>>>>>>> origin/master

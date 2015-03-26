@@ -36,14 +36,27 @@
 		<div>
 			<nav class="navbar navbar-default">
 			  <div class="container-fluid">
-				<div>
+				  <!-- Brand and toggle get grouped for better mobile display -->
+				  <div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+					  </button>
+					  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+					  <a class="navbar-brand" href="index.php">Afrique</a>
+				  </div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li class="active"><a href="#">Home</a></li>
 					<li><a href="#">About Us</a></li>
 					<li><a href="#">Book Appointment</a></li> 
 					<li><a href="#">Contact Us</a></li> 
+					<li><a href="#"><strong>Sign In</strong></a></li>
 				  </ul>
 				</div>
+				<!-- /.navbar-collapse -->
 			  </div>
 			</nav>	
 		</div>
@@ -65,19 +78,19 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 			  <div class="item active">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model1.png" alt="model1" width="460" height="345">
+				<img src="img/model1.png" alt="model1" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model2.png" alt="model2" width="460" height="345">
+				<img src="img/model2.png" alt="model2" width="460" height="345">
 			  </div>
 			
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model3.png" alt="model3" width="460" height="345">
+				<img src="img/model3.png" alt="model3" width="460" height="345">
 			  </div>
 
 			  <div class="item">
-				<img src="http://swift.bridgeitsolutions.ca/wp-content/uploads/2015/03/model4.png" alt="model4" width="460" height="345">
+				<img src="img/model4.png" alt="model4" width="460" height="345">
 			  </div>
 			</div>
 
@@ -98,11 +111,19 @@
 	
 	<!-- Main Content -->
 	<div class="container">
-		 <h1>Welcome to Afrique!</h1>
+		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
 	</div>
 	
 	<!-- Footer -->
-	<div></div>
+	  <footer>
+        <div class="container">
+			  <div class="row">
+				  <div class="col-lg-12 text-center">
+					  <p>Copyright &copy; Afrique 2015</p>
+				  </div>
+			  </div>
+        </div>
+	  </footer>
 	
 	
  
@@ -110,6 +131,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+	
+	  <!-- Script to Activate the Carousel (Change as needed: smaller interval = faster speed)-->
+	  <script>
+		  $('.carousel').carousel({
+			  interval: 5000 //changes the speed
+		  })
+	  </script>
 	
   </body>
 </html>
