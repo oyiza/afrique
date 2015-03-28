@@ -68,7 +68,7 @@
 		<div class="row">
 			 <div class="box">
 				<div class="col-lg-12 text-center">
-				<div class="text-center" style="background-color: #778899">
+				<div class="text-center" style="background-color: #778899" align="center">
 					<hr>
 					<h2 class="intro-text text-center"><strong>Booking Form</strong></h2>
 					<hr>
