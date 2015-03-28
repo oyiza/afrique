@@ -1,4 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:300); /* Font for the Logo */
+
 
 #header{
 	background: #B990FF;
@@ -17,6 +18,15 @@
 	text-shadow: 2px 3px #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 800%;
+}
+
+.aboutthem{
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 800%;
+	background: rgb(152,152,152);
+	background: rgba(114,54,153,0.9);
+	border-radius: 25px;
 }
 
 body {
