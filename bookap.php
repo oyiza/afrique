@@ -68,10 +68,10 @@
 		<div class="row">
 			 <div class="box">
 				<div class="col-lg-12 text-center">
-				<div class="text-center" id="booking" align="center">
-					<hr>
-					<h2 class="intro-text text-center" style="font-size: 250%;"><strong>Booking Form</strong></h2>
-					<hr>
+				<div class="text-center form" id="booking" align="center">
+					<!--<hr>--><div><br/></div>
+					<h2 class="intro-text text-center book-head"><strong>Booking Form</strong></h2>
+					<!--<hr>-->
 					<p>Place text here</p>
 					<form role="form">
 						<div class="row">
