@@ -20,11 +20,19 @@
 	font-size: 800%;
 }
 
+#booking{
+	background: rgb(114,54,153);
+	background: rgba(114,54,153,0.9);
+	color: #fff;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 150%;
+}
+
 .aboutthem{
 	color: #fff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 800%;
-	background: rgb(152,152,152);
+	background: rgb(114,54,153);
 	background: rgba(114,54,153,0.9);
 	border-radius: 25px;
 }
