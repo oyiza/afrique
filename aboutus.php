@@ -67,6 +67,17 @@
 	  <div class="container">
 		  <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
 	  </div>
+	  
+	  <div class="container">
+		<div>
+			<p> yvonne </p>
+		</div>
+		<div>
+			<p></p>
+		</div>
+		<div></div>
+		<div></div>
+	  </div>
 		
 	<!-- Footer -->
 	  <footer>
