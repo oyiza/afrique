@@ -114,6 +114,22 @@ body {
 	letter-spacing: 1px;
 }
 
+.book-head {
+	text-transform: uppercase;
+	font-size: 2.25em;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: 500;
+	color: black;
+}
+
+.form {
+	color: black;
+	background: rgb(152,152,152);
+	background: rgba(114,54,153,0.9);
+	border-radius: 25px;
+	
+}
+
 @media screen and (min-width:1200px) {
     .box:after {
         content: '';

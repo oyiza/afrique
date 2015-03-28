@@ -70,7 +70,7 @@
 	  
 	  <div class="container">
 		<!-- Yvonne -->
-		<div class="container aboutthem">
+		<div class="container-fluid aboutthem">
 			<div class="col-md-4">
 				<img src="img/model1.png" height="50%" width="50%">
 			</div>
@@ -82,7 +82,7 @@
 		<br/>
 		
 		<!-- Chi -->
-		<div class="container aboutthem">
+		<div class="container-fluid aboutthem">
 			<div class="col-md-8 ">
 				<p> Chi </p>
 			</div>
@@ -94,7 +94,7 @@
 		<br/>
 		
 		<!-- Other Person LoL -->
-		<div class="container aboutthem">
+		<div class="container-fluid aboutthem">
 			<div class="col-md-4">
 				<img src="img/model2.png" height="50%" width="50%">
 			</div>

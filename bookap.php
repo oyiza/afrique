@@ -64,48 +64,48 @@
 	</div> <!-- end of header -->
 	
 	<!-- Main Content -->
-	<div class="container">
+	<div class="container" style="width:1150px">
 		<div class="row">
 			 <div class="box">
 				<div class="col-lg-12 text-center">
-				<div class="text-center" style="background-color: #778899" align="center">
-					<hr>
-					<h2 class="intro-text text-center"><strong>Booking Form</strong></h2>
-					<hr>
+				<div class="text-center col-lg-11 form">
+					<!--<hr>--><div><br/></div>
+					<h2 class="intro-text text-center book-head"><strong>Booking Form</strong></h2>
+					<!--<hr>-->
 					<p>Place text here</p>
 					<form role="form">
-						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="column">
+							<div class="form-group col-lg-6">
 								<label>First Name</label>
 								<input type="text" class="form-control" placeholder="firstname">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+							<div class="form-group col-lg-6">
 								<label>Last Name</label>
 								<input type="text" class="form-control" placeholder="lastname">
 							</div>
 						</div>
-						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="column">
+							<div class="form-group col-lg-6">
 								<label>Phone Number</label>
 								<input type="number" class="form-control" placeholder="phone number">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+							<div class="form-group col-lg-6">
 								<label>Hairstyle</label>
 								<input type="text" class="form-control" placeholder="">
 							</div>
 						</div>
-						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="column">
+							<div class="form-group col-lg-6">
 								<label>Number of clients</label>
 								<input type="number" class="form-control" placeholder="">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+							<div class="form-group col-lg-6">
 								<label>Are you buying hair or do you have your own?</label>
 								<input type="text" class="form-control" placeholder="">
 							</div>
