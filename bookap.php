@@ -75,37 +75,43 @@
 					<p>Place text here</p>
 					<form role="form">
 						<div class="row">
-							<div class="form-group col-lg-4">
+							<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>First Name</label>
 								<input type="text" class="form-control" placeholder="firstname">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>Last Name</label>
 								<input type="text" class="form-control" placeholder="lastname">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>Phone Number</label>
 								<input type="number" class="form-control" placeholder="phone number">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>Hairstyle</label>
 								<input type="text" class="form-control" placeholder="">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>Number of clients</label>
 								<input type="number" class="form-control" placeholder="">
 							</div>
 						</div>
 						<div class="row">
-							<div class="form-group col-lg-4">
+						<div class="col-md-4"></div>
+							<div class="form-group col-md-4">
 								<label>Are you buying hair or do you have your own?</label>
 								<input type="text" class="form-control" placeholder="">
 							</div>
