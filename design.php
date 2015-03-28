@@ -28,8 +28,8 @@
   
 	<!-- Header -->
 	<div class="container">
-		<div class="brand" style="color: #666699">
-			Afrique
+		<div class="brand" id="logo">
+			<p>Afrique</p>	
 		</div>
 		
 		<!-- MENU BAR -->
