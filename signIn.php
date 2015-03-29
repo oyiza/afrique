@@ -64,8 +64,8 @@
 	</div> <!-- end of header -->
 	
 	<!-- Main Content -->
-	<div class="container">
-		 <h2 class="brand-before text-center"><small>Welcome to Afrique!</small></h2>
+	<div class="container-fluid">
+		 
 	</div>
 	
 	<!-- Footer -->
