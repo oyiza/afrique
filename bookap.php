@@ -68,7 +68,7 @@
 		<div class="row">
 			 <div class="box">
 				<div class="col-lg-12 text-center">
-				<div class="text-center form center-div" id="booking" style="width: 1000px; color: black">
+				<div class="text-center form center-div" id="booking">
 					<!--<hr>--><div><br/></div>
 					<h2 class="intro-text text-center book-head"><strong>Booking Form</strong></h2>
 					<!--<hr>-->
@@ -103,15 +103,15 @@
 							</div>
 						</div>
 						<div class="row">
-						<div class="col-sm-3"></div>
-							<div class="form-group col-sm-6">
+						<div class="col-xs-3"></div>
+							<div class="form-group col-xs-6">
 								<label>Number of clients</label>
 								<input type="number" class="form-control" placeholder="">
 							</div>
 						</div>
 						<div class="row">
-						<div class="col-sm-3"></div>
-							<div class="form-group col-sm-6">
+						<div class="col-xs-3"></div>
+							<div class="form-group col-xs-6">
 								<label>Are you buying any products?</label>
 								<input type="text" class="form-control" placeholder="">
 							</div>
