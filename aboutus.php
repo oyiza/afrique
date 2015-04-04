@@ -50,7 +50,7 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				  <ul class="nav navbar-nav">
 					<li><a href="home.php">Home</a></li>
-					<li class="active"><a href="aboutus.php">About Us</a></li>
+					<li class="active"><a href="#">About Us</a></li>
 					<li><a href="bookap.php">Book Appointment</a></li> 
 					<li><a href="contactus.php">Contact Us</a></li> 
 					<li><a href="signIn.php"><strong>Sign In</strong></a></li>
@@ -62,6 +62,7 @@
 		</div>
 		
 	</div> <!-- end of header -->
+	
 		<br/>
 		<br/>
 		<br/>
@@ -115,6 +116,11 @@
 			  </div>
         </div>
 	  </footer>
+	  
+	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	  <!-- Include all compiled plugins (below), or include individual files as needed -->
+	  <script src="js/bootstrap.min.js"></script>
 	
   </body>
   </html>
