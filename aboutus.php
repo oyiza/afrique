@@ -94,15 +94,27 @@
 		
 		<br/>
 		
-		<!-- Other Person LoL -->
+		<!-- Zoe -->
 		<div class="container-fluid aboutthem">
 			<div class="col-md-4">
 				<img src="img/model2.png" height="50%" width="50%">
 			</div>
 			<div class="col-md-8">
-				<p> Other Person </p>
+				<p> Zoe </p>
 			</div>
 		</div>
+		
+		<br/>
+		
+		<!-- Ntcha -->
+		  <div class="container-fluid aboutthem">
+			  <div class="col-md-8 ">
+				  <p> Ntcha </p>
+			  </div>
+			  <div class="col-md-4">
+				  <img src="img/model4.png" height="50%" width="50%">
+			  </div>
+		  </div>
 		
 	  </div>
 		
