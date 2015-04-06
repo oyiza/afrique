@@ -84,10 +84,11 @@
 					</div>
 					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						<div class="panel-body">
-							will have facebook, google and email login here
-							<a class="btn btn-block btn-social btn-twitter">
-								<i class="fa fa-twitter"></i> Sign in with Twitter
-							</a>
+							<div class="col-xs-3 social-buttons">
+								<a class="btn btn-block btn-social btn-twitter">
+									<i class="fa fa-twitter"></i> Sign in with Twitter
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>
