@@ -9,6 +9,9 @@
 	<!-- Style.css -->
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	 
+	  <!-- bootstrap-social -->
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+	 
 	  <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	  
@@ -82,6 +85,9 @@
 					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						<div class="panel-body">
 							will have facebook, google and email login here
+							<a class="btn btn-block btn-social btn-twitter">
+								<i class="fa fa-twitter"></i> Sign in with Twitter
+							</a>
 						</div>
 					</div>
 				</div>

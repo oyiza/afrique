@@ -9,6 +9,9 @@
 	<!-- Style.css -->
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	 
+	 <!-- bootstrap-social -->
+	 <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+	 
 	  <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	  
