@@ -64,8 +64,139 @@
 	</div> <!-- end of header -->
 	
 	<!-- Main Content -->
+	<!-- Sign In form -->
 	<div class="container-fluid">
-		 
+		 <div class="container">
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+						<h4 class="panel-title form-head">
+							<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Sign In
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							<form role="form">
+						<div class="row">
+							<div class="col-xs-3"></div>
+							<div class="form-group col-xs-6">
+								<label>First Name</label>
+								<input type="text" class="form-control" placeholder="firstname">
+							</div>
+						</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Last Name</label>
+										<input type="text" class="form-control" placeholder="lastname">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Phone Number</label>
+										<input type="number" class="form-control" placeholder="phone number">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Hairstyle</label>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Number of clients</label>
+										<input type="number" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Are you buying any products?</label>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="form-group col-lg-12">
+									<button type="submit" class="btn btn-default">Submit</button>
+								</div>
+								<div class="row">
+									
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<!-- Sign Up form -->
+				<div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title form-head">
+							<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Sign Up
+							</a>
+						</h4>
+					</div>
+					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+						<div class="panel-body">
+							<form role="form">
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>First Name</label>
+										<input type="text" class="form-control" placeholder="firstname">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Last Name</label>
+										<input type="text" class="form-control" placeholder="lastname">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Phone Number</label>
+										<input type="number" class="form-control" placeholder="phone number">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Hairstyle</label>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Number of clients</label>
+										<input type="number" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Are you buying any products?</label>
+										<input type="text" class="form-control" placeholder="">
+									</div>
+								</div>
+								<div class="form-group col-lg-12">
+									<button type="submit" class="btn btn-default">Submit</button>
+								</div>
+								<div class="row">
+									
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		 </div>
 	</div>
 	
 	<!-- Footer -->
