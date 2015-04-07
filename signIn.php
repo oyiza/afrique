@@ -11,6 +11,8 @@
 	 
 	  <!-- bootstrap-social -->
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+	  <link rel="stylesheet" type="text/css" href="css/docs.css">
+	  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	 
 	  <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -87,6 +89,16 @@
 							<div class="col-xs-3 social-buttons">
 								<a class="btn btn-block btn-social btn-twitter">
 									<i class="fa fa-twitter"></i> Sign in with Twitter
+								</a>
+							</div>
+							<div class="col-xs-3 social-buttons">
+								<a class="btn btn-block btn-social btn-google-plus">
+									<i class="fa fa-google-plus"></i> Sign in with Google
+								</a>
+							</div>
+							<div class="col-xs-3 social-buttons">
+								<a class="btn btn-block btn-social btn-facebook">
+									<i class="fa fa-facebook"></i> Sign in with Facebook
 								</a>
 							</div>
 						</div>
