@@ -89,6 +89,28 @@
 					</div>
 					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						<div class="panel-body">
+							<form role="form">
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>E-mail</label>
+										<input type="text" class="form-control" placeholder="email">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Password</label>
+										<input type="text" class="form-control" placeholder="password">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<button type="submit" class="btn btn-warning" value="Submit">Submit</button>
+									</div>
+								</div>
+							</form>
 							<div class="col-xs-3 social-buttons">
 								<a class="btn btn-twitter">
 									<i class="fa fa-twitter"></i> | Sign in with Twitter

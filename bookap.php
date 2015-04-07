@@ -123,11 +123,9 @@
 							</div>
 						</div>
 						<div class="form-group col-lg-12">
-							<button type="submit" class="btn btn-default">Submit</button>
+							<button type="submit" class="btn btn-lg">Submit</button>
 						</div>
-						<div class="row">
-							
-						</div>
+						<div class="row"></div>
 					</form>
 				</div>
 				</div>
