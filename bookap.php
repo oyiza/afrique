@@ -74,11 +74,11 @@
 		<div class="row">
 			 <div class="box">
 				<div class="col-lg-12 text-center">
-				<div class="text-center form center-div" id="booking">
-					<!--<hr>--><div><br/></div>
+				<div class="text-center form center-div" id="booking" style="color: black">
+					<div><br/></div>
 					<h2 class="intro-text text-center form-head"><strong>Booking Form</strong></h2>
-					<!--<hr>-->
-					<p>Place text here</p>
+					<p><strong>For one time bookings only, use this form. However, if you want to sign in, 
+					<a href="signIn.php" style="color: white">click here.</a> </strong></p>
 					<form role="form">
 						<div class="row">
 							<div class="col-xs-3"></div>

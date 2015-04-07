@@ -9,6 +9,9 @@
 	<!-- Style.css -->
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
 	 
+	 <!-- social-buttons -->
+	 <link rel="stylesheet" type="text/css" href="css/social-buttons.css"> 
+	 
 	  <!-- bootstrap-social -->
 	  <link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
 	  <link rel="stylesheet" type="text/css" href="css/docs.css">
@@ -18,7 +21,7 @@
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	  
 	  <!-- Font Awesome CDN -->
-	  <link rel="fontAwesome" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
  
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -87,18 +90,23 @@
 					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 						<div class="panel-body">
 							<div class="col-xs-3 social-buttons">
-								<a class="btn btn-block btn-social btn-twitter">
-									<i class="fa fa-twitter"></i> Sign in with Twitter
+								<a class="btn btn-twitter">
+									<i class="fa fa-twitter"></i> | Sign in with Twitter
 								</a>
 							</div>
 							<div class="col-xs-3 social-buttons">
-								<a class="btn btn-block btn-social btn-google-plus">
-									<i class="fa fa-google-plus"></i> Sign in with Google
+								<a class="btn btn-google-plus">
+									<i class="fa fa-google-plus"></i> | Sign in with Google
 								</a>
 							</div>
 							<div class="col-xs-3 social-buttons">
-								<a class="btn btn-block btn-social btn-facebook">
-									<i class="fa fa-facebook"></i> Sign in with Facebook
+								<a class="btn btn-facebook">
+									<i class="fa fa-facebook"></i> | Sign in with Facebook
+								</a>
+							</div>
+							<div class="col-xs-3 social-buttons">
+								<a class="btn btn-primary">
+									<i class="btn-primary"></i>Sign in with E-mail
 								</a>
 							</div>
 						</div>
