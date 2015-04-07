@@ -111,6 +111,9 @@
 									</div>
 								</div>
 							</form>
+							<div class="col-xs-2">
+								
+							</div>
 							<div class="col-xs-3 social-buttons">
 								<a class="btn btn-twitter">
 									<i class="fa fa-twitter"></i> | Sign in with Twitter
@@ -124,11 +127,6 @@
 							<div class="col-xs-3 social-buttons">
 								<a class="btn btn-facebook">
 									<i class="fa fa-facebook"></i> | Sign in with Facebook
-								</a>
-							</div>
-							<div class="col-xs-3 social-buttons">
-								<a class="btn btn-primary">
-									<i class="btn-primary"></i>Sign in with E-mail
 								</a>
 							</div>
 						</div>
