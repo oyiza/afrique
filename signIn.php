@@ -101,7 +101,7 @@
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Password</label>
-										<input type="text" class="form-control" placeholder="password">
+										<input type="password" name="pwd" class="form-control" placeholder="password">
 									</div>
 								</div>
 								<div class="row">
@@ -155,14 +155,14 @@
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Choose a password</label>
-										<input type="text" class="form-control" placeholder="password">
+										<input type="password" name="pwd" class="form-control" placeholder="password">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Confirm password</label>
-										<input type="text" class="form-control" placeholder="confirm password">
+										<input type="password" name="pwd" class="form-control" placeholder="confirm password">
 									</div>
 								</div>
 								<div class="row">
