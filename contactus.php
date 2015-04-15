@@ -75,7 +75,7 @@
 		<div class="text-center form center-div" id="booking">
 			<br/>
 			<h2 class="intro-text text-center form-head"><strong>Booking Form</strong></h2>
-		<form class="form-horizontal" role="form" method="post" action="home.php">
+		<form class="form-horizontal" role="form" method="post" action="contact_process.php">
 			<div class="form-group">
 				<label for="name" class="col-sm-2 control-label">Name</label>
 				<div class="col-sm-8">
