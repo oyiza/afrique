@@ -17,7 +17,12 @@
 		    else
 				echo "Connected successfully</br>";
 			
-			$sql = "";
+			$sql = "CREATE TABLE CUSTOMERS(
+				id INT AUTO_INCREMENT PRIMARY KEY,
+				firstname VARCHAR(30) NOT NULL,
+				lastname VARCHAR(30) NOT NULL,
+				
+			)";
 			
 			//if($conn->query($sql) == TRUE)
 				//echo "Table AddressBook created succefully";

@@ -147,6 +147,20 @@
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
+										<label>First Name</label>
+										<input type="text" name="fname" id="fname" class="form-control" placeholder="first name">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
+										<label>Last Name</label>
+										<input type="text" name="lname" id="lname" class="form-control" placeholder="last name">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-3"></div>
+									<div class="form-group col-xs-6">
 										<label>E-mail</label>
 										<input type="text" name="email" id="email" class="form-control" placeholder="email@example.com">
 									</div>
