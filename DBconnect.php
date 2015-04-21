@@ -17,17 +17,19 @@
 		    else
 				echo "Connected successfully</br>";
 			
-			$sql = "CREATE TABLE CUSTOMERS(
+			$sql = "CREATE TABLE Customers(
 				id INT AUTO_INCREMENT PRIMARY KEY,
 				firstname VARCHAR(30) NOT NULL,
 				lastname VARCHAR(30) NOT NULL,
-				
+				email VARCHAR(255) NOT NULL,
+				password VARCHAR(255) NOT NULL,
+				phone INT NOT NULL
 			)";
 			
-			//if($conn->query($sql) == TRUE)
-				//echo "Table AddressBook created succefully";
-			//else
-				//echo "Error creating table: ".$conn->error;
+			if($conn->query($sql) == TRUE)
+				echo "Table Customers created succefully";
+			else
+				echo "Error creating table: ".$conn->error;
 			
 		 ?> 
 	</body>

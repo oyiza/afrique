@@ -27,47 +27,11 @@
 	
   </head>
   <body>
-  <!-- SPACER -->
-  <div class="container">
-	<br/>
-  </div>
-  
 	<!-- Header -->
 	<div class="container">
 		<div class="brand" id="logo">
 			<p>Afrique</p>	
 		</div>
-		
-		<!-- MENU BAR -->
-		<div>
-			<nav class="navbar navbar-default">
-			  <div class="container-fluid">
-				  <!-- Brand and toggle get grouped for better mobile display -->
-				  <div class="navbar-header">
-					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-					  </button>
-					  <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-					  <a class="navbar-brand" href="home.php">Afrique</a>
-				  </div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				  <ul class="nav navbar-nav">
-					<li><a href="home.php">Home</a></li>
-					<li><a href="aboutus.php">About Us</a></li>
-					<li><a href="#">Book Appointment</a></li> 
-					<li><a href="#">Contact Us</a></li> 
-					<li class="active"><a href="#"><strong>Sign In</strong></a></li>
-				  </ul>
-				</div>
-				<!-- /.navbar-collapse -->
-			  </div>
-			</nav>	
-		</div>
-		
-	</div> <!-- end of header -->
 	
 	<!-- Main Content -->
 	<?php
@@ -83,6 +47,16 @@
 		}else{
 			
 		}
+		
+		$sql = "INSERT INTO Customers(firstname, lastname, email, password, phone)";
+		
+		if($conn->query($sql) == TRUE)
+		echo "<div class='alert alert-success' role='alert'><h1>Sign up successful!</h1></br> You are being redirected
+		<a href='home.php'alert-link'>Home.</a>
+		</div>";
+		else
+		echo "<div class='alert alert-danger' role='alert'>Error could not sign up :".$e->getMessage()."
+		</div><a href='home.php'alert-link>Go Home.</a>";
 		
 		header( 'refresh:3; url=home.php' );
 	?>
