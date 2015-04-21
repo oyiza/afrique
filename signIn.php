@@ -143,33 +143,33 @@
 					</div>
 					<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
 						<div class="panel-body">
-							<form role="form">
+							<form role="form" method="post" action="signUp.php">
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>E-mail</label>
-										<input type="text" class="form-control" placeholder="email">
+										<input type="text" name="email" id="email" class="form-control" placeholder="email@example.com">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Choose a password</label>
-										<input type="password" name="pwd" class="form-control" placeholder="password">
+										<input type="password" name="pwd" id="pwd" class="form-control" placeholder="password">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Confirm password</label>
-										<input type="password" name="pwd" class="form-control" placeholder="confirm password">
+										<input type="password" name="pwd1" id="pwd1" class="form-control" placeholder="confirm password">
 									</div>
 								</div>
 								<div class="row">
 									<div class="col-xs-3"></div>
 									<div class="form-group col-xs-6">
 										<label>Phone Number</label>
-										<input type="number" class="form-control" placeholder="phone number">
+										<input type="number" name="number" id="number" class="form-control" placeholder="phone number">
 									</div>
 								</div>
 								<div class="form-group col-lg-12">
