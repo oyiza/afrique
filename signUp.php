@@ -71,6 +71,19 @@
 	
 	<!-- Main Content -->
 	<?php
+		$servername="lovett.usask.ca";
+		$username = "cmpt350_pie654";
+		$dbname = "cmpt350_pie654";
+		$password = "h5dvo6j7zt";
+		
+		$conn = new mysqli($servername,$username,$password,$dbname);
+		
+		if($conn->connect_error){
+			die("Connection failed: ".$conn->connect_error);
+		}else{
+			
+		}
+		
 		header( 'refresh:3; url=home.php' );
 	?>
 	
