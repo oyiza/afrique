@@ -48,15 +48,23 @@
 			
 		}
 		
-		$sql = "INSERT INTO Customers(firstname, lastname, email, password, phone)";
+		$sql = "INSERT INTO `Customers` ( firstname, lastname, email, password, phone )
+		VALUES
+		(' ".$_POST['fname']." ', ' ".$_POST['lname']." ', ' ".$_POST['email']." ', ' ".$_POST['pwd']." ', ' ".$_POST['number']." ' )";
 		
-		if($conn->query($sql) == TRUE)
+		if (!mysqli_query($conn,$sql)) {
+			die('Error: ' . mysqli_error($conn));
+		}
+		echo "Successful sign up";
+		mysqli_close($conn);
+		
+		/*if($conn->query($sql) == TRUE)
 		echo "<div class='alert alert-success' role='alert'><h1>Sign up successful!</h1></br> You are being redirected
 		<a href='home.php'alert-link'>Home.</a>
 		</div>";
 		else
-		echo "<div class='alert alert-danger' role='alert'>Error could not sign up :".$e->getMessage()."
-		</div><a href='home.php'alert-link>Go Home.</a>";
+		echo "<div class='alert alert-danger' role='alert'>Error could not sign up
+		</div><a href='home.php'alert-link>Go Home.</a>";*/
 		
 		header( 'refresh:3; url=home.php' );
 	?>
